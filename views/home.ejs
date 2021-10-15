@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Register</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><span>Welcome User </span> Sign-up</h1>
+    <div class="wrapper animated bounceInLeft">
+      <div class="contact">
+        <h3>Email Us</h3>
+        <form method="POST" action="/send">
+          <p>
+            <label>Firstname</label>
+            <input type="text" name="firstname" required>
+          </p>
+          <p>
+            <label>Lastname</label>
+            <input type="text" name="lastname" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" required>
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="number" name="phone" required>
+          </p>
+
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
